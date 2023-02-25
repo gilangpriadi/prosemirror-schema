@@ -28,7 +28,7 @@ export { MessageMarkdownSerializer } from './schema/markdown/messageSerializer';
 export { fullSchema } from './schema/article';
 export { messageSchema } from './schema/message';
 
-export function wootArticleWriterSetup(props) {
+export function stallaArticleWriterSetup(props) {
   let plugins = [
     history(),
     baseKeyMaps(props.schema),
@@ -46,7 +46,7 @@ export function wootArticleWriterSetup(props) {
     }),
     new Plugin({
       props: {
-        attributes: { class: 'ProseMirror-woot-style' },
+        attributes: { class: 'ProseMirror-stalla-style' },
       },
     }),
     ...(props.plugins || []),
@@ -55,7 +55,7 @@ export function wootArticleWriterSetup(props) {
   return plugins;
 }
 
-export function wootMessageWriterSetup(props) {
+export function stallaMessageWriterSetup(props) {
   let plugins = [
     ...(props.plugins || []),
     history(),
@@ -73,7 +73,7 @@ export function wootMessageWriterSetup(props) {
     }),
     new Plugin({
       props: {
-        attributes: { class: 'ProseMirror-woot-style' },
+        attributes: { class: 'ProseMirror-stalla-style' },
       },
     }),
   ];
