@@ -1,5 +1,5 @@
 {
-  "name": "@reinhardliem/prosemirror-schema",
+  "name": "@gilangpriadi/prosemirror-schema",
   "version": "1.0.0",
   "description": "Schema setup for using prosemirror in techstalla. Based on 👉 https://github.com/ProseMirror/prosemirror-example-setup/",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reinhardliem/prosemirror-schema.git"
+    "url": "git+https://github.com/gilangpriadi/prosemirror-schema.git"
   },
   "files": [
     "src/*"
@@ -16,9 +16,9 @@
   "author": "Nithin David <nithin@techstalla.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reinhardliem/prosemirror-schema/issues"
+    "url": "https://github.com/gilangpriadi/prosemirror-schema/issues"
   },
-  "homepage": "https://github.com/reinhardliem/prosemirror-schema#readme",
+  "homepage": "https://github.com/gilangpriadi/prosemirror-schema#readme",
   "dependencies": {
     "prosemirror-commands": "^1.1.4",
     "prosemirror-dropcursor": "^1.3.2",
@@ -36,6 +36,6 @@
     "prosemirror-view": "^1.17.2"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@reinhardliem"
+    "registry": "https://npm.pkg.github.com/@gilangpriadi"
   }
 }
